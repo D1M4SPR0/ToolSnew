@@ -47,7 +47,7 @@ time.sleep(2)
 pilih = raw_input('[?] pilih : ')
 if pilih == "1":
       os.system('git clone https://github.com/B4N954N2-ID/DarkPremium')
-      time.sleep(3)
+      time.sleep(2)
       print "[+]Selanjutnya ketik $cd DarkPremium"
       time.sleep(3)
       print "[+]Selanjutnya ketik $python2 darkpremium.py"
