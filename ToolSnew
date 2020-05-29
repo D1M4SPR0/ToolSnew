@@ -38,7 +38,7 @@ print
 print "[5] Keluar"
 print
 print "===================================================="
-print
+prib y
 print "PILIH SALAH SATU TOOLS DI ATAS INI"
 print
 print "===================================================="
@@ -47,7 +47,6 @@ time.sleep(2)
 pilih = raw_input('[?] pilih : ')
 if pilih == "1":
       os.system('git clone https://github.com/B4N954N2-ID/DarkPremium')
-      time.sleep(2)
       print "[+]Selanjutnya ketik $cd DarkPremium"
       time.sleep(3)
       print "[+]Selanjutnya ketik $python2 darkpremium.py"
@@ -76,3 +75,4 @@ elif pilih == "4":
 elif pilih == "5":
         time.sleep(7)
         print "[+]KELUAR"
+      
